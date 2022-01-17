@@ -11,7 +11,7 @@ component_dirs=
 use_master_password=n
 
 # Directory root to search for components
-component_root=/mnt/Instaladores/Rev.56
+component_root=
 
 # Skip all SAP Host Agent calls ( Default: n )
 skip_hostagent_calls=n
