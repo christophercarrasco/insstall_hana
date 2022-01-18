@@ -64,10 +64,10 @@ install_ssh_key=y
 root_user=root
 
 # Root User Password For Remote Hosts
-root_password=Passw0rd
+root_password=
 
 # SAP Host Agent User (sapadm) Password
-sapadm_password=Passw0rd
+sapadm_password=
 
 # Directory containing a storage configuration
 storage_cfg=
@@ -130,7 +130,7 @@ certificates_hostmap=
 master_password=
 
 # System Administrator Password
-password=Passw0rd
+password=
 
 # System Administrator Home Directory ( Default: /usr/sap/${sid}/home )
 home=/usr/sap/${sid}/home
@@ -145,7 +145,7 @@ userid=
 groupid=
 
 # Database User (SYSTEM) Password
-system_user_password=Passw0rd
+system_user_password=
 
 # Restart system after machine reboot? ( Default: n )
 autostart=y
