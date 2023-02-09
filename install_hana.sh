@@ -1,7 +1,14 @@
 #!/bin/bash
 
-VERSION="1.0"
-INSTALL_DIR="/install_hana"
+# Changelog
+# 1.1
+# Added TIMESTAMP to INSTALL_DIR for temp install path
+# 1.0
+# Initial release
+
+VERSION="1.1"
+TIMESTAMP=$(date +%s)
+INSTALL_DIR="/install_hana.${TIMESTAMP}"
 INSTALL_SOURCE="/backup/HANA2"
 REV="56"
 SCRIPTSERVER="YES"
